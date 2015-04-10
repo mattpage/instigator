@@ -26,7 +26,9 @@ function links($, txt, meta){
     $tags.each(function(){
       var $el = $(this);
       var href = $el.attr('href');
-      meta[tag].urls.push(href.toLowerCase());
+      if (href){
+        meta[tag].urls.push(href.toLowerCase());
+      }
     });
 
     meta[tag].urls = _.uniq(meta[tag].urls);
