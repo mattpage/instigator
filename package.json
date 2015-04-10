@@ -1,0 +1,21 @@
+{
+  "name": "instigator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew Page",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "lodash": "^3.6.0",
+    "natural": "^0.2.1",
+    "request": "^2.55.0",
+    "yargs": "^3.7.0"
+  },
+  "devDependencies": {
+  }
+}
